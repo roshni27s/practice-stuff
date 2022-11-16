@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import BgImg from '../assets/bg-image.png'
+import {MdKeyboardArrowRight} from 'react-icons/md'
 
 const Hero = () => {
   return (
@@ -19,6 +20,7 @@ const Hero = () => {
                         <span>
                             Claim your free stocks now
                         </span>
+                        <MdKeyboardArrowRight/>
                     </Button>
                 
             </Left>
